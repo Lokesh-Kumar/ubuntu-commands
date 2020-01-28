@@ -1,0 +1,53 @@
+.card{
+    width: 70%;
+    margin: 25px auto;
+    margin-left: 20%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 17px 17px 17px 17px;
+    transition: transform .2s; 
+    background-color: white;
+}
+.card:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.card-title{
+    background-color: #17252a;
+    border-radius: 17px 17px 0px 0px;
+    min-height: 14px;
+    color: #f1f1f1;
+    text-align: left;
+    font-size: 17px;
+    padding: 8px 7px 2px 8px;
+    word-wrap: break-word;
+    margin: -1px -1px 1px -1px;
+}
+.content-code{
+    background-color: #eff0f1;
+    font-size: 13px;
+    margin: 5px 3px 3px 5px;
+    display: flex;
+    color: #a1adad;
+}
+.content-code svg{
+    margin: 9px 1px 8px 6px;
+
+}
+.content-code pre{
+    color: #464646;
+    padding: 3px 1px 1px 2%;
+    overflow-x: auto;
+    word-wrap: break-word;
+    margin: 5px 1px 1px 1px;
+}
+.content-description{
+    font-family: initial;
+    font-size: 17px;
+    margin: 6px 10px 5px 10px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-left: 14%;
+    }
+}
