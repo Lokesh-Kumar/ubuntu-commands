@@ -1,4 +1,19 @@
 const data = {
+
+	"hosting": [
+		{
+			"title": "",
+			"steps": [
+				{
+					"cmd": "",
+					"desc": "",
+				}
+			]
+		}
+	],
+
+
+
     "Hosting":[
         {
             "title":"Hosting in Python Server", 
